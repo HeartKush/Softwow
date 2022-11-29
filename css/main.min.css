@@ -7320,12 +7320,16 @@ footer .footer__copyright {
   #reviews .reviews__wrap-line1 {
     width: 77%;
   }
- /*  #reviews .reviews__carousel-logo {
-    max-height: 60px;
-  } */
+  #reviews .reviews__carousel-logo {
+    max-height: 120px;
+    max-width: 120px;
+  }
   #index-classic-portfolio #reviews .reviews__wrap-line1 {
     width: 77%;
   }
+}
+@media only screen and (max-width: 768px) {
+  .owl-item{}
 }
 @media only screen and (max-width: 446px) {
   header .navbar.horizontal-navbar {
